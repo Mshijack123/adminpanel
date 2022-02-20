@@ -22,7 +22,7 @@ export default function LeftMenu(){
 
             <div className="menu-items">
                 <div className="menu-img" >
-               <Image src={category}/></div>
+               <Image src={category} alt='menu'/></div>
                 <div className="menu-text">
                <h3>Home</h3></div>
             </div>
@@ -30,7 +30,7 @@ export default function LeftMenu(){
 
            <div className="menu-items">
            <div className="menu-img">
-               <Image src={section1}/></div>
+               <Image src={section1} alt='menu'/></div>
                <div className="menu-text">
                <h3>Section 1</h3></div>
             </div>
@@ -40,7 +40,7 @@ export default function LeftMenu(){
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section2}/></div>
+               <Image src={section2} alt='menu'/></div>
                <div className="menu-text">
                <h3>Section 2</h3></div>
             </div>
@@ -48,7 +48,7 @@ export default function LeftMenu(){
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section3}/></div>
+               <Image src={section3} alt='menu'/></div>
                <div className="menu-text">
                <h3>Section 3</h3></div>
             </div>
@@ -57,7 +57,7 @@ export default function LeftMenu(){
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section4}/></div>
+               <Image src={section4} alt='menu' /></div>
                <div className="menu-text">
                <h3>Section 4</h3></div>
             </div>
@@ -65,21 +65,21 @@ export default function LeftMenu(){
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section5}/></div>
+               <Image src={section5} alt='menu' /></div>
                <div className="menu-text">
                <h3>Section 5</h3></div>
             </div>
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section6}/></div>
+               <Image src={section6} alt='menu' /></div>
                <div className="menu-text">
                <h3>Section 6</h3></div>
             </div>
 
             <div className="menu-items">
            <div className="menu-img">
-               <Image src={section7}/></div>
+               <Image src={section7} alt='menu' /></div>
                <div className="menu-text">
                <h3>Section 7</h3></div>
             </div>
@@ -88,7 +88,7 @@ export default function LeftMenu(){
 
              <div className="menu-items selected">
              <div className="menu-img">
-               <Image src={section8}/></div>
+               <Image src={section8} alt='menu' /></div>
                <div className="menu-text">
                <h3>Section 8</h3></div>
              </div>
@@ -96,7 +96,7 @@ export default function LeftMenu(){
 
              <div className="menu-items">
            <div className="menu-img">
-               <Image src={section9}/></div>
+               <Image src={section9} alt='menu' /></div>
                <div className="menu-text">
                <h3>Documentation</h3></div>
             </div>
@@ -109,7 +109,7 @@ export default function LeftMenu(){
 
             <div className="ratebuy-btn">
                    <button className="rate-btn">
-                         <Image src={logo}/>
+                         <Image src={logo} alt='menu' />
                         <h3>$0.90</h3>
                    </button>
 
@@ -125,8 +125,8 @@ export default function LeftMenu(){
                   
                   
                <div className="browserimg">
-                        <Image src={browser}/>
-                       <Image src={toggle}/>
+                        <Image src={browser} alt='menu' />
+                       <Image src={toggle} alt='menu' />
 
                         </div>  
 
