@@ -10,7 +10,7 @@ export default function Reward(){
                     <h2>$ 0.26231428</h2>
                 </div>
                 <button className="customlink-btn">
-                 <Image src={icon}/>
+                 <Image src={icon} alt='menu' />
                  Customer link
                 </button>
                 </div>
