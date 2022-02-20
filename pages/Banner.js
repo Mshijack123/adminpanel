@@ -11,7 +11,7 @@ export default function Banner(){
 
                 <div className='wallet-details'>
                     <div className='balance'>
-                        <Image src={wallet}/>
+                        <Image src={wallet} alt='wallet'/>
                         <h3>0.2 $XYZ</h3>
                     </div>
                     <button className='tier'>
