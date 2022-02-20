@@ -5,7 +5,7 @@ import Image from "next/image";
 const Tablecontent = () =>{
 
 
-  const [data,setdata] = React.useRef([])
+  var [data,setdata] = React.useRef([])
 
 
 useEffect(()=>{
