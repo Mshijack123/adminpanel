@@ -21,7 +21,7 @@ export default function Banner(){
 
              </div>
              <div className="banner-body">
-                <Image src={banner}/>
+                <Image src={banner} alt='menu'/>
 
                
              </div>
