@@ -1,14 +1,15 @@
-import React, {useEffect,useRef} from "react";
+import React, {useEffect,useRef,useState} from "react";
 import axios from 'axios';
 import Image from "next/image";
 
 const Tablecontent = () =>{
 
 
-  var [data,setdata] = React.useRef([])
+  
 
 
 useEffect(()=>{
+  var [data,setdata] = React.useState([]);
     axios('https://raw.githubusercontent.com/akshita151199/APIs/main/data')
     .then(resposnse=>{
       setdata(data = resposnse.data.data);
