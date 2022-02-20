@@ -7,13 +7,13 @@ export default function Refer(){
               <div className="refer-sections">
                   <div className="refer-sec">
                       <div className="refer-secupper">
-                          <Image src={refer}/>
+                          <Image src={refer} alt='menu' />
                           <h3>12.5% of fee</h3> 
                       </div>
                       <h4>Your Referral Link for xyz</h4>
                      <div className="refer-secfooter">
                        <h3>https://unityexchange.design </h3>
-                       <Image src={icon}/>
+                       <Image src={icon} alt='menu' />
                      </div>
 
                   </div>
@@ -22,13 +22,13 @@ export default function Refer(){
 
                   <div className="refer-sec">
                       <div className="refer-secupper">
-                          <Image src={refer}/>
+                          <Image src={refer} alt='menu' />
                           <h3>12.5% of fee</h3> 
                       </div>
                       <h4>Your Referral Link for xyz</h4>
                      <div className="refer-secfooter">
                        <h3>https://unityexchange.design </h3>
-                       <Image src={icon}/>
+                       <Image src={icon} alt='menu' />
                      </div>
 
                   </div>
