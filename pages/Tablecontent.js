@@ -5,11 +5,11 @@ import Image from "next/image";
 const Tablecontent = () =>{
 
 
-  
+  var [data,setdata] = React.useState([]);
 
 
 useEffect(()=>{
-  var [data,setdata] = React.useState([]);
+  
     axios('https://raw.githubusercontent.com/akshita151199/APIs/main/data')
     .then(resposnse=>{
       setdata(data = resposnse.data.data);
