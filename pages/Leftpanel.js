@@ -8,7 +8,7 @@ export default function Leftpanel(){
                <div className="left-logo">
                   <Image src={logo} alt='menu' />
                   <h2 style={{fontSize:'23.5618px',lineHeight:'31px',color:'white'}}>Name</h2>
-                 <Image src={arrow}/>
+                 <Image src={arrow} alt='menu'/>
                </div>
                          
                <LeftMenu/>
