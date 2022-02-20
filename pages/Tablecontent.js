@@ -1,11 +1,11 @@
-import React, {useEffect,useState} from "react";
+import React, {useEffect,useRef} from "react";
 import axios from 'axios';
 import Image from "next/image";
 
 const Tablecontent = () =>{
 
 
-  const [data,setdata] = React.useState([])
+  const [data,setdata] = React.useRef([])
 
 
 useEffect(()=>{
