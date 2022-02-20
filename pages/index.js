@@ -42,9 +42,9 @@ export default function Home() {
               <div className="right" >
                    <div className="select-btns" >
                       <div className="select-btnone" >
-                          <Image src={icon}/>
+                          <Image src={icon} alt='menu'/>
                           <h3> Avalanche</h3>
-                          <Image src={icon2}/>
+                          <Image src={icon2} alt='menu' />
                       </div>
                       
 
@@ -67,7 +67,7 @@ export default function Home() {
 
                     <div className="btns">
                         <button className="btn-f">
-                             <Image src= {icon3}/>
+                             <Image src= {icon3} alt='menu'/>
                              Custom link 
                         </button>
                         <button className="btn-fs">
