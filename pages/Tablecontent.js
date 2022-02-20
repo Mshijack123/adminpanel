@@ -24,7 +24,7 @@ useEffect(()=>{
 
             <div className="table-content">
                  <div className="asset">
-                     <img src={s.img}/>
+                     <img src={s.img} alt='menu' />
                      <div className="asset-text">
                        <div className="asset-name">
                          <h5>{s.asset}</h5>
@@ -32,7 +32,7 @@ useEffect(()=>{
                          <div className="putnew">
                          <h6>{s.type}</h6>
                            <div className="put">
-                           <img src={s.chain.img}/>
+                           <img src={s.chain.img} alt='menu'/>
                            <h5>{s.chain.name}</h5>
                            </div>
                            </div>
