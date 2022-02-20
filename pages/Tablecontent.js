@@ -8,13 +8,11 @@ const Tablecontent = () =>{
   var [data,setdata] = React.useState([]);
 
 
-useEffect(()=>{
   
     axios('https://raw.githubusercontent.com/akshita151199/APIs/main/data')
     .then(resposnse=>{
       setdata(data = resposnse.data.data);
     })
-})
 
 
 
